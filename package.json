@@ -1,0 +1,24 @@
+{
+  "name": "learn-terraform",
+  "version": "1.0.0",
+  "description": "An exhaustive, production-grade HashiCorp Terraform & OpenTofu Infrastructure as Code (IaC) masterclass.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/terraform.test.mjs"
+  },
+  "keywords": [
+    "terraform",
+    "opentofu",
+    "iac",
+    "infrastructure-as-code",
+    "devops",
+    "sre",
+    "hcl",
+    "cloud",
+    "aws",
+    "terragrunt"
+  ],
+  "author": "Manthan Ank",
+  "license": "MIT"
+}
