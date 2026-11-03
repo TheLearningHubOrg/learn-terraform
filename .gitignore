@@ -1,7 +1,41 @@
+# Kept from the previous starter
 node_modules/
 dist/
 coverage/
-.DS_Store
 *.log
 .env
 .env.local
+
+# Terraform working directories and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+tfplan*
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Variable files often hold secrets. The example files in env/ are safe.
+*.tfvars
+*.tfvars.json
+!env/*.tfvars
+
+# Output written by the starter
+out/
+
+# Editors and OS
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+.DS_Store
+Thumbs.db
+.env.*
+!.env.example

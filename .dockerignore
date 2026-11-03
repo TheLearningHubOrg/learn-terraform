@@ -1,0 +1,14 @@
+.git
+.github
+**/.terraform
+**/out
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan*
+crash.log
+*.md
+!README.md
+public
+Dockerfile
+.dockerignore
